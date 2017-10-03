@@ -1,0 +1,7 @@
+The Serverless API we are building! The api directory contains five files.
+
+    beta.json: The CloudFormation staging file. This will be used by CloudFormation to pass parameters to our CloudFormation template.
+    buildspec.yml: This is used by CodeBuild in the build step of our pipeline. We will get to that later.
+    index.js: The Lambda function code!
+    package.json: The package.json that defines what packages we need for our Lambda function.
+    saml.yaml: SAML my YAML! This is the SAM template file that will be used to create our API gateway resource and Lambda function, hook them up together
